@@ -1,11 +1,12 @@
 ---
-import Header from '../components/header.astro';
-import Footer from '../components/footer.astro';
+import Announcement from '../components/Announcement.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
 import '../styles/styles.css';
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="en" class="text-[20px]">
 	<head>
 		<meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,7 +14,8 @@ import '../styles/styles.css';
 		<meta name="generator" content={Astro.generator} />
 		<title>Cutting Edge Development</title>
 	</head>
-	<body class="flex flex-col">
+	<body>
+    <Announcement />
     <Header />
 		<slot />
     <Footer />
