@@ -3,11 +3,11 @@ import previewImage from '@assets/img/social-preview-image.png'
 import logoImage from '@assets/img/logo.svg'
 
 export default defineThemeConfig({
-  name: 'Accessible Astro',
-  id: 'accessible-astro-starter',
+  name: 'Cutting Edge Development Studio',
+  id: 'cutting-edge-dev',
   logo: logoImage,
   seo: {
-    title: 'Accessible Astro Starter',
+    title: 'Cutting Edge Development Studio',
     description:
       'An Accessible Starter Theme for Astro including several accessibility features and tools to help you build faster.',
     author: 'Incluud',
