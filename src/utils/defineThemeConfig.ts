@@ -57,7 +57,7 @@ const defaultConfig: Omit<ThemeConfig, 'name' | 'id'> = {
   seo: {
     title: 'Cutting Edge Development Studio',
     subtitle: '',
-    description: 'A website built with Accessible Astro Starter',
+    description: 'Building the Future, One Solution at a Time',
     author: '',
     image: null,
   },

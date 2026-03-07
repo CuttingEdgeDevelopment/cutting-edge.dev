@@ -26,18 +26,19 @@ export default defineThemeConfig({
         type: 'link',
         label: 'Home',
         href: '/',
+        icon: 'lucide:home',
       },
-      {
+      /* {
         type: 'link',
         label: 'Blog',
         href: '/blog',
-      },
-      {
+      }, */
+      /* {
         type: 'link',
         label: 'Portfolio',
         href: '/portfolio',
-      },
-      {
+      }, */
+      /* {
         label: 'Features',
         type: 'dropdown',
         items: [
@@ -74,16 +75,16 @@ export default defineThemeConfig({
             href: '/sitemap',
           },
         ],
-      },
-      {
+      }, */
+      /* {
         type: 'link',
         label: 'Contact',
         href: '/contact',
-      },
+      }, */
       {
         type: 'link',
         label: 'Go to our GitHub page, opens in new tab',
-        href: 'https://github.com/incluud/accessible-astro-starter',
+        href: 'https://github.com/CuttingEdgeDevelopment',
         icon: 'lucide:github',
         external: true,
         excludeFromLauncher: true,
